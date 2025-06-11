@@ -1,0 +1,14 @@
+langchain
+openai
+chromadb
+faiss-cpu
+duckduckgo-search
+python-dotenv
+PyPDF2
+tiktoken
+streamlit
+huggingface-hub
+transformers
+faiss-cpu
+duckduckgo-search
+pytest
