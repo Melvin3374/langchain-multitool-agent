@@ -1,11 +1,10 @@
-# tools/calculator_tool.py
 from langchain.tools import BaseTool
 import re
 import math
 
 class CalculatorTool(BaseTool):
-    name = "Calculator"
-    description = "Effectue des calculs mathématiques. Entrez une expression comme '2+2' ou 'sin(45)'"
+    name: str = "Calculator"
+    description: str = "Effectue des calculs mathématiques. Entrez une expression comme '2+2' ou 'sin(45)'"
 
     def _run(self, query: str) -> str:
         try:

@@ -38,3 +38,7 @@ def main():
 
         except Exception as e:
             print(f"\nErreur: {str(e)}\n")
+
+if __name__ == "__main__":
+    main()
+    logging.info("Agent terminé")

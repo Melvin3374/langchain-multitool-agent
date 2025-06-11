@@ -5,6 +5,7 @@ faiss-cpu
 duckduckgo-search
 python-dotenv
 PyPDF2
+pypdf
 tiktoken
 streamlit
 huggingface-hub
