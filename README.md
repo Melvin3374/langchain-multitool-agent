@@ -91,6 +91,3 @@ python app.py
 - Les logs sont enregistrés dans `agent.log`.
 
 ---
-
-**Auteur** : [Ton nom ou pseudo]  
-**Licence** : MIT
