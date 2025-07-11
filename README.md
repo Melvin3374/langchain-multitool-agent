@@ -1,6 +1,7 @@
 # 🚀 LangChain Multitool Gemini Agent
-Assistant IA multimodal avancé propulsé par Google Gemini Pro via LangChain. 
-- Déployer un assistant IA accessible publiquement sur EC2.
+
+Assistant IA multimodal avancé propulsé par Google Gemini Pro via LangChain composé de : 
+- Assistant IA accessible publiquement sur EC2.
 - API FastAPI pour la logique backend
 - Front Streamlit pour une interface utilisateur intuitive
 - Conteneurisation avec Docker et Docker Compose.
@@ -21,7 +22,7 @@ Architecture modulaire : Séparer la logique métier (agent), l'API (FastAPI) et
 Déploiement simplifié : Utiliser Docker pour une conteneurisation facile et un déploiement rapide.
 Préparation à la production : Mettre en place les bases pour une montée en charge sur des infrastructures cloud comme AWS EC2.
 
-### 1️⃣ Prérequis
+## 1️⃣ Prérequis
 
 - Python 3.10+
 - Docker & Docker Compose
@@ -53,15 +54,17 @@ Cette commande va construire les images Docker nécessaires, puis démarrer l'AP
    ```sh
 Ouvrez votre navigateur web et naviguez vers :
 http://localhost:8501
-
 L'API FastAPI sera accessible sur http://localhost:8000, mais vous n'aurez pas besoin d'interagir directement avec elle via votre navigateur.
    ```
 ```
-### 💬 Utilisation de l'Agent
+
+## 💬 Utilisation de l'Agent
+
 Une fois l'application Streamlit lancée et après vous être connecté (ou inscrit), vous pourrez interagir avec l'agent Gemini via l'interface de chat.
 Commandes spéciales de l'agent (en fonction de l'implémentation)
 
 L'agent est conçu pour comprendre des requêtes en langage naturel, mais certains outils peuvent réagir à des formats spécifiques :
+
 - **Généralités** : Posez simplement votre question ou votre instruction.
 - **TODO** :
   - Ajouter une tâche : `add:acheter du lait`
