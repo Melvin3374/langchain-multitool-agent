@@ -1,0 +1,126 @@
+2025-06-11 15:18:17,638 - INFO - Démarrage de l'agent
+2025-06-11 15:18:57,406 - INFO - Use pytorch device_name: cpu
+2025-06-11 15:18:57,406 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-11 15:22:19,402 - INFO - Démarrage de l'agent
+2025-06-11 15:25:56,254 - INFO - Démarrage de l'agent
+2025-06-11 15:27:12,174 - INFO - Démarrage de l'agent
+2025-06-11 15:27:24,660 - INFO - Use pytorch device_name: cpu
+2025-06-11 15:27:24,661 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-11 15:32:25,579 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:32:26,689 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:32:47,944 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:32:49,535 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:32:49,541 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:32:51,440 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:08,596 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:09,128 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:09,139 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:09,580 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:09,600 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:10,332 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:17,270 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:17,783 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:17,802 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:18,778 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:38,541 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:39,368 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:40,376 - INFO - response: https://html.duckduckgo.com/html 200
+2025-06-11 15:33:40,401 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:40,876 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:47,796 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:49,441 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:50,267 - INFO - response: https://html.duckduckgo.com/html 200
+2025-06-11 15:33:50,290 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:55,727 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:55,747 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:33:58,667 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:33:58,701 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:34:00,440 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:34:21,913 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:34:23,356 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:34:24,146 - INFO - response: https://html.duckduckgo.com/html 200
+2025-06-11 15:34:24,175 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:34:27,076 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:35:08,224 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:35:13,516 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:35:13,526 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:35:19,007 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:35:33,993 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:35:35,043 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:35:35,072 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:35:36,337 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:35:58,790 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:35:59,939 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:35:59,948 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:36:03,099 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:36:20,174 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:36:21,525 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:36:21,551 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:36:25,592 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:36:55,941 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:36:57,338 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:36:57,352 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:37:00,551 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:37:25,197 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:37:25,852 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:37:25,884 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:37:26,688 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:42:21,898 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:42:22,714 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:42:22,748 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:42:23,696 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:42:23,731 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:42:25,237 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:42:25,263 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:42:29,877 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:42:29,900 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:42:42,527 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:42:56,140 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:42:57,160 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:43:20,109 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:43:20,842 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:43:20,854 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:43:21,703 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:46:16,297 - INFO - Agent terminé
+2025-06-11 15:49:25,803 - INFO - Démarrage de l'agent
+2025-06-11 15:49:37,269 - INFO - Use pytorch device_name: cpu
+2025-06-11 15:49:37,270 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-11 15:49:46,038 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:49:46,967 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:49:46,992 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:49:47,814 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:49:47,834 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:49:50,396 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:50:13,375 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:50:16,612 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:51:27,016 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:51:29,914 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:51:29,932 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:51:31,965 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:51:43,448 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:51:46,195 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:51:46,228 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:51:47,268 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:52:05,228 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:52:06,782 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:52:06,824 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:52:07,900 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:52:41,604 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:52:42,506 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:53:18,995 - INFO - Loading faiss with AVX2 support.
+2025-06-11 15:53:19,402 - INFO - Successfully loaded faiss with AVX2 support.
+2025-06-11 15:53:19,412 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-11 15:53:19,426 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:53:20,251 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:53:43,644 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:53:44,973 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:54:23,815 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:54:25,684 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:54:26,533 - INFO - response: https://lite.duckduckgo.com/lite/ 200
+2025-06-11 15:54:26,558 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:54:27,869 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:55:01,946 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:55:03,742 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:55:03,764 - WARNING - Parameter `stop` not yet supported (https://docs.mistral.ai/api)
+2025-06-11 15:55:05,336 - INFO - HTTP Request: POST https://api.mistral.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-11 15:55:59,677 - INFO - Agent terminé

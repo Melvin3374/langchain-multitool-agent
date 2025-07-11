@@ -1,0 +1,26 @@
+services:
+  fastapi:
+    build: . # Construit l'image à partir du Dockerfile dans le répertoire actuel
+    container_name: langchain_fastapi
+    ports:
+      - "8000:8000" # Mappe le port 8000 du conteneur au port 8000 de l'hôte
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY} # Passe la clé API depuis votre fichier .env
+    volumes:
+      - .:/app # Monte le répertoire local dans le conteneur (utile pour le dev)
+    restart: unless-stopped # Redémarre le conteneur sauf s'il est explicitement arrêté
+
+  streamlit:
+    build: . # Utilise le même Dockerfile pour construire l'image. Les dépendances seront installées une fois.
+    container_name: langchain_streamlit
+    # working_dir: /app # Déjà défini dans le Dockerfile
+    volumes:
+      - .:/app # Monte le répertoire local dans le conteneur (utile pour le dev)
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY} # Passe la clé API
+    ports:
+      - "8501:8501" # Mappe le port 8501 du conteneur au port 8501 de l'hôte
+    command: bash -c "streamlit run streamlit_app.py --server.port 8501 --server.address 0.0.0.0" # Commande pour lancer Streamlit
+    restart: unless-stopped # Redémarre le conteneur sauf s'il est explicitement arrêté
+    depends_on:
+      - fastapi # Assure que le service fastapi démarre avant streamlit
