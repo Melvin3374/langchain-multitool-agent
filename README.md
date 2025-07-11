@@ -22,14 +22,16 @@ Architecture modulaire : Séparer la logique métier (agent), l'API (FastAPI) et
 Déploiement simplifié : Utiliser Docker pour une conteneurisation facile et un déploiement rapide.
 Préparation à la production : Mettre en place les bases pour une montée en charge sur des infrastructures cloud comme AWS EC2.
 
-## 1️⃣ Prérequis
+
+## 🛠️ Prérequis
 
 - Python 3.10+
 - Docker & Docker Compose
 - Une clé GEMINI_API_KEY valide (obtenue depuis Google AI Studio ou Google Cloud Console).
 - [Git] (pour cloner le repo)
 
-## Installation
+
+## 🚀 Installation & Lancement
 
 1. Clone le repo :
    ```sh
@@ -39,24 +41,23 @@ Préparation à la production : Mettre en place les bases pour une montée en ch
    
 2. Configurez votre clé API Gemini :
    ```sh
-Créez un fichier nommé .env à la racine du projet (au même niveau que docker-compose.yml) et ajoutez-y votre clé API :
-GEMINI_API_KEY=votre_clé_api_gemini_ici
-FASTAPI_API_URL=http://localhost:8000 # URL de votre API FastAPI (pour Streamlit)
+   Créez un fichier nommé .env à la racine du projet (au même niveau que docker-compose.yml) et ajoutez-y votre clé API :
+   GEMINI_API_KEY=votre_clé_api_gemini_ici
+   FASTAPI_API_URL=http://localhost:8000 # URL de votre API FastAPI (pour Streamlit)
    ```
 
 3. Lancez les services avec Docker Compose :
    ```sh
-docker-compose up --build
-Cette commande va construire les images Docker nécessaires, puis démarrer l'API FastAPI et l'application Streamlit.
+   docker-compose up --build
+   Cette commande va construire les images Docker nécessaires, puis démarrer l'API FastAPI et l'application Streamlit.
    ```
 
 3. Accédez à l'application Streamlit :
    ```sh
-Ouvrez votre navigateur web et naviguez vers :
-http://localhost:8501
-L'API FastAPI sera accessible sur http://localhost:8000, mais vous n'aurez pas besoin d'interagir directement avec elle via votre navigateur.
+   Ouvrez votre navigateur web et naviguez vers :
+   http://localhost:8501
+   L'API FastAPI sera accessible sur http://localhost:8000, mais vous n'aurez pas besoin d'interagir directement avec elle via votre navigateur.
    ```
-```
 
 ## 💬 Utilisation de l'Agent
 
@@ -80,7 +81,7 @@ L'agent est conçu pour comprendre des requêtes en langage naturel, mais certai
 - **Calculatrice** :  
   `2+2`, `sin(45)`, etc.
 
-## Structure du projet
+## 📁 Structure du Projet
 
 ```
 .
@@ -100,7 +101,7 @@ L'agent est conçu pour comprendre des requêtes en langage naturel, mais certai
 └── README.md
 ```
 
-## Notes
+## ⚠️ Notes importantes pour le déploiement sur EC2
 
 - **Sécurité des API Keys** : Ne jamais exposer directement votre GEMINI_API_KEY dans le code public ou dans des dépôts Git. Utilisez les variables d'environnement (.env localement, puis des méthodes sécurisées comme les Secrets Managers d'AWS ou les variables d'environnement EC2/ECS/EKS en production).
 
